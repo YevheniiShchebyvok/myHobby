@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&amp;family=Roboto:wght@400;500;700;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Header section -->
+    <header class="header">
+      <div class="header-container container">
+        <nav class="nav-container">
+          <a href="./index.html" class="link-logo link"
+            >Бокс<span class="link-title-primary">ЮА</span></a
+          >
+          <ul class="nav-list list">
+            <li class="menu-item">
+              <a href="./index.html" class="nav-item link active">Головна</a>
+            </li>
+            <li class="menu-item">
+              <a href="./news.html" class="nav-item link">Новини</a>
+            </li>
+            <li class="menu-item">
+              <a href="./info.html" class="nav-item link">Інфо</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="contact-info">
+          <ul class="list-contacts list">
+            <li>
+              <a href="mailto:info@boxhobby.com" class="contact link"
+                >info@boxhobby.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="contact link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <button
+          type="button"
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="menu-hamburger" width="32" height="22">
+            <use href="./images/icons.svg#icon-menu-hamburger"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main>
+      <!-- Filter section -->
+      <section class="portfolio-section section">
+        <div class="container">
+          <h1 class="hidden-title">Portfolio</h1>
+          <!-- Examples -->
+          <ul class="list-ex-port list">
+            <li class="ex-list-item">
+              <a href="" class="link-project link">
+                <div class="thumb">
+                  <img
+                    src="./images/images-portfolio/new1.jpeg"
+                    alt="example of service"
+                    width="360"
+                  />
+                  <p class="overlay-text">
+                    Український боксер надважкої ваги Владислав Сіренко здобув
+                    впевнену перемогу над американцем Деоном Ронні Гейлом у
+                    поєдинку, який відбувся в ніч проти 3 квітня у Нешвілі
+                    (США).
+                  </p>
+                </div>
+                <div class="ex-item">
+                  <h2 class="serv-ex-title">
+                    Владислав Сіренко провів перший бій від грудня 2021 року.
+                  </h2>
+                </div>
+              </a>
+            </li>
+            <li class="ex-list-item">
+              <a href="" class="link-project link">
+                <div class="thumb">
+                  <img
+                    src="./images/images-portfolio/new2.jpg"
+                    alt="example of service"
+                    width="360"
+                  />
+                  <p class="overlay-text">
+                    Суперником українця стане представник Португалії Октавіу
+                    Пудивітр. Бій пройде в андеркарді поєдинку за звання
+                    абсолютного чемпіона світу у хевівейті між володарем титулу
+                    WBC Тайсоном Ф’юрі та Олександром Усиком.
+                  </p>
+                </div>
+                <div class="ex-item">
+                  <h2 class="serv-ex-title">
+                    Лапін проведе бій з португальцем Пудивітром в андеркарді
+                    поєдинку Усик – Ф’юрі
+                  </h2>
+                </div>
+              </a>
+            </li>
+            <li class="ex-list-item">
+              <a href="" class="link-project link">
+                <div class="thumb">
+                  <img
+                    src="./images/images-portfolio/new3.jpg"
+                    alt="example of service"
+                    width="360"
+                  />
+                  <p class="overlay-text">
+                    Єгор Голуб, тренер володаря титулу WBO International у
+                    легкій вазі Дениса Берінчика, прокоментував майбутній
+                    поєдинок з мексиканцем Еммануелем Наваррете за вакантний
+                    пояс чемпіона WBO у легкій вазі.
+                  </p>
+                </div>
+                <div class="ex-item">
+                  <h2 class="serv-ex-title">
+                    Бій між Берінчиком і Наваррете відбудеться 18 травня 2024
+                    року в Сан-Дієго
+                  </h2>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer section">
+      <div class="footer-container container">
+        <div class="footer-container-info">
+          <a href="./index.html" class="link-logo footer-link link"
+            >Бокс<span class="link-title-secondary">ЮА</span></a
+          >
+          <p class="footer-text">
+            Долучайся до нас і разом ми матимемо усі актуальні новини зі світу
+            боксу.
+          </p>
+        </div>
+        <div class="footer-socials-links">
+          <p class="soc-media">Наші соціальні мережі</p>
+          <ul class="footer-soc-list list">
+            <li class="footer-soc-item">
+              <a href="" class="footer-soc-link link">
+                <svg class="footer-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="" class="footer-soc-link link">
+                <svg class="footer-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="" class="footer-soc-link link">
+                <svg class="footer-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="" class="footer-soc-link link">
+                <svg class="footer-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="subscription-form">
+          <p class="subscription-title">Підписуйся на оновлення</p>
+          <form>
+            <div class="sub-form-wrapper">
+              <input
+                class="subscription-form-field"
+                type="email"
+                name="sub_field"
+                id="sub_field"
+                placeholder="Email"
+              />
+              <button class="sub-button button" type="button">
+                Subscribe
+                <svg class="sub-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-sub"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <!-- Mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle-close button menu-toggle js-close-menu">
+        <svg
+          class="menu-toggle-close-icon"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="8"
+          height="8"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu list">
+        <li>
+          <a href="./index.html" class="mobile-navigation link"> Головна </a>
+        </li>
+        <li>
+          <a href="./news.html" class="mobile-navigation link active">
+            Новини
+          </a>
+        </li>
+        <li>
+          <a href="./info.html" class="mobile-navigation link"> Інфо </a>
+        </li>
+      </ul>
+      <ul class="mobile-contacts list">
+        <li>
+          <a href="tel:+110001111111" class="mobile-cont-tel link">
+            +11 (000) 111-11-11
+          </a>
+        </li>
+        <li>
+          <a href="mailto:info@boxhobby.com" class="mobile-cont-email link">
+            info@boxhobby.com
+          </a>
+        </li>
+      </ul>
+      <ul class="mobile-socials list">
+        <li class="mob-menu-soc-item footer-soc-item">
+          <a href="" class="footer-soc-link link">
+            <svg class="footer-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mob-menu-soc-item footer-soc-item">
+          <a href="" class="footer-soc-link link">
+            <svg class="footer-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mob-menu-soc-item footer-soc-item">
+          <a href="" class="footer-soc-link link">
+            <svg class="footer-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mob-menu-soc-item footer-soc-item">
+          <a href="" class="footer-soc-link link">
+            <svg class="footer-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
+  </body>
+</html>
